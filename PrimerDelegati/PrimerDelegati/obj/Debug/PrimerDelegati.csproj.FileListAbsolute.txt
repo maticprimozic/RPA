@@ -1,0 +1,7 @@
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\bin\Debug\PrimerDelegati.exe.config
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\bin\Debug\PrimerDelegati.exe
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\bin\Debug\PrimerDelegati.pdb
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\obj\Debug\PrimerDelegati.csprojAssemblyReference.cache
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\obj\Debug\PrimerDelegati.csproj.CoreCompileInputs.cache
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\obj\Debug\PrimerDelegati.exe
+C:\programiranje\RPA\PrimerDelegati\PrimerDelegati\obj\Debug\PrimerDelegati.pdb
