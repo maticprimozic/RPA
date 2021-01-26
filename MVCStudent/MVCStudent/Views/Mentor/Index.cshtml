@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVCStudent.Models.Mentor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Ustvari novega", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priimek)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DatumZaposlitve)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Aktiven)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Priimek)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DatumZaposlitve)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Aktiven)
+        </td>
+        <td>
+            @Html.ActionLink("Uredi", "Edit", new { id=item.MentorId }) |
+            @Html.ActionLink("Podrobnosti", "Details", new { id=item.MentorId }) |
+            @Html.ActionLink("Izbriši", "Delete", new { id=item.MentorId })
+        </td>
+    </tr>
+}
+
+</table>

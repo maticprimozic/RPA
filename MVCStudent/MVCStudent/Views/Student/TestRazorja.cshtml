@@ -1,0 +1,44 @@
+﻿<h1>Razor demo</h1>
+@*kako napišem komentar*@
+@*inline*@
+<h2>@DateTime.Now.ToShortDateString()</h2>
+@*več vrstic*@
+@{ 
+    var sporočilo = "Pozdravljen svet!";
+    var datum = DateTime.Now;
+}
+<h2>@sporočilo</h2>
+<h2>Danes je: @datum</h2>
+
+@*tekst v bloku kode*@
+@{ 
+    var datum1 = DateTime.Now;
+    string sp1 = "Pozdravljen svet!";
+    <text>Danes je </text> @datum1<br/>
+    @sp1
+}
+
+<br/>
+@*if stavek*@
+@if (DateTime.IsLeapYear(datum1.Year))
+{
+    @datum1.Year <text> je prestopno leto </text>
+}
+else
+{
+@datum1.Year <text> ni prestopno leto</text>
+}
+<br/>
+@*for zanka*@
+@for (int k =0; k<5; k++)
+{
+    @k.ToString(); <br/>
+}
+@model MVCStudent.Models.Student       
+<h2>Podrobnosti o študentu</h2>
+<ul>
+    <li>Id študenta: @Model.StudentId</li>
+        <li>Ime    : @Model.StudentName</li>
+    <li>Starost    : @Model.Age</li>
+</ul>
+@Html.ActionLink("Ustvari nov", "TestRazorja")
