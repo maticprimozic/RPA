@@ -11,7 +11,7 @@ namespace MVCStudent.Models
         public int MentorId { get; set; }
         
         public string Ime { get; set; }
-        
+        [Required]
         public string Priimek { get; set; }
         [Display(Name ="Datum zaposlitve")]
         public DateTime DatumZaposlitve { get; set; }

@@ -81,3 +81,5 @@ C:\programiranje\RPA\MVCStudent\MVCStudent\bin\EntityFramework.dll
 C:\programiranje\RPA\MVCStudent\MVCStudent\bin\EntityFramework.SqlServer.dll
 C:\programiranje\RPA\MVCStudent\MVCStudent\bin\EntityFramework.xml
 C:\programiranje\RPA\MVCStudent\MVCStudent\bin\EntityFramework.SqlServer.xml
+C:\programiranje\RPA\MVCStudent\MVCStudent\obj\Debug\MVCStudent.Migrations.b.resources
+C:\programiranje\RPA\MVCStudent\MVCStudent\obj\Debug\MVCStudent.csproj.GenerateResource.cache
